@@ -1,18 +1,40 @@
 .header {
-    color: pink
+    color: orange;
 }
 
 .img-container {
     background-color: lightgray;
-    height: 300px;
-    align-items: center;
+    height: 150px;
+    align-content: inherit;
+}
+.box{
+    background-color: white;
+    width: 60px;
+    border: 60px dotted black;
+    padding: 30px; 
+    margin: 30px;
 }
 
 .name {
-    color: palevioletred;
+    color: orangered;
 }
 
 .profile {
     position: relative;
     left: 40px;
+    align-content: inherit;
+}
+
+ul {
+    background: pink;
+    padding: 20px;
+}
+
+ul li {
+    background:deeppink;
+    margin: 5px;
+}
+.location {
+   p {
+    text-indent: 40px; }
 }
