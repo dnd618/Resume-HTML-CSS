@@ -1,3 +1,14 @@
 .header {
-    color: orangered
+    color: pink
+}
+
+.img container {
+    border: width="500" border-style="" color="black"
+}
+.name {
+    color: palevioletred
+}
+
+img container.solid {border-style: solid; 
+    border-width: medium
 }
