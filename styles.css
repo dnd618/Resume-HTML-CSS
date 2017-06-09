@@ -9,6 +9,7 @@
     color: palevioletred
 }
 
-img container.solid {border-style: solid; 
-    border-width: medium
+.profile {
+    position: relative;
+    left: 40px;
 }
