@@ -2,11 +2,14 @@
     color: pink
 }
 
-.img container {
-    border: width="500" border-style="" color="black"
+.img-container {
+    background-color: lightgray;
+    height: 300px;
+    align-items: center;
 }
+
 .name {
-    color: palevioletred
+    color: palevioletred;
 }
 
 .profile {
