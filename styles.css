@@ -1,38 +1,47 @@
-.header {
-    color: orange;
-}
+.me {
+    
+    text-decoration: none;
+    background-color: white;
+    height: 150px;
 
-.links {
-    float: right
 }
 .img-container {
     background-color: lightgray;
     height: 150px;
     align-content: inherit;
 }
-.box{
-    background-color: white;
-    width: 60px;
-    border: 60px dotted black;
-    padding: 30px; 
-    margin: 30px;
-}
-
-.name {
-    color: orangered;
-}
-
-.profile {
-    position: relative;
-    left: 40px;
-    align-content: inherit;
-}
-
-me ul li {
-    background: pink;
-    padding: 20px;
-    float: right
-}
 li {
     list-style-type: none;
+}
+.work   {
+    background-color: lightgrey;
+}
+.images {
+    padding:   10px;
+    margin-top: 10px;
+ }
+work, me {
+    float: right;
+}
+.me ul {
+    float: right;
+}
+hr {
+    padding: 3px;
+    color: black;
+}
+h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hello h1 {
+    position: relative;
+    left: 4em;
+    bottom: 2em;
+}
+.hello h5 {
+    position: relative;
+    left: 9.75em;
+    bottom: 8em;
+    font-family: Arial, Helvetica, sans-serif;
 }
