@@ -2,6 +2,9 @@
     color: orange;
 }
 
+.links {
+    float: right
+}
 .img-container {
     background-color: lightgray;
     height: 150px;
@@ -25,12 +28,11 @@
     align-content: inherit;
 }
 
-ul {
+me ul li {
     background: pink;
     padding: 20px;
+    float: right
 }
-
-ul li {
-    background:deeppink;
-    margin: 5px;
+li {
+    list-style-type: none;
 }
