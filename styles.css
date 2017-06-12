@@ -1,29 +1,29 @@
-body {
+body{
     margin:0 auto;
     max-width: 1200px;
 } 
 
-.container {
+.name {
     margin-top: 40px;
 }
 
-.me{
+.logo {
     margin-left: 40px;
     margin-bottom: -40px;
 }
 
-.me h4 {
+.name h4 {
     border: 3px black solid;
     display: inline;
     padding: 10px;
-    color: orangered;
+    color: hotpink;
 }
 
 .nav-bar {
     margin-left: 700px; 
 }
 
-.nav {
+.navigation {
     display: inline-block;
     border-bottom: 3px solid orangered;
     margin: 20px;
@@ -47,7 +47,10 @@ body {
 }
 
 .title {
-    color: orangered;
+    position: relative;
+    bottom: 2em;
+    left: 6.75em;
+    color: hotpink;
     font-size: 50px;
 }
 
@@ -100,7 +103,7 @@ project {
     
 }
 
-.project-images {
+.project images {
     height:200px;
     margin: none;
 }
@@ -109,12 +112,12 @@ project {
     padding-bottom: 70px;
 }
 
-form {
+.form {
     margin-left: 400px;
     
 }
 
- input {
+.input {
    height: 30px;
    width: 500px;
    display: block;
@@ -123,12 +126,12 @@ form {
    color: grey;
  }
 
- .comment::placeholder  {
+ .comment form  {
     color: red;
     margin-top: 30px;
 }
 
- button {
+ .button {
      height: 30px;
      width: 60px;
      margin-left: 445px;
@@ -140,8 +143,11 @@ form {
      height: 150px;
  }
 
-.images {
-    margin-left: 500px;
+.project-images {
+    float: right;
+    width: 33%; 
+    height: 200px;
+
 }
 
 .size {
@@ -152,4 +158,18 @@ form {
 .bye {
     display: inline-block;
     padding: 20px;
+}
+.location {
+    margin-top: 2em;
+    margin-left: 0em;
+    position: absolute;
+    height: 200px;
+    width: 500px;
+}
+p.location {
+    margin-top: -9em;
+    margin-left: 21em;
+    position: absolute;
+    height: 200px;
+    width: 500px;
 }
